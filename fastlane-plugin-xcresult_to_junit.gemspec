@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'fastlane/plugin/xcresult_to_junit/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'fastlane-plugin-xcresult_to_junit'
+  spec.name          = 'xcresult_to_junit'
   spec.version       = Fastlane::XcresultToJunit::VERSION
   spec.author        = 'Shane Birdsall'
   spec.email         = 'shane.birdsall@fiserv.com'
